@@ -1,0 +1,21 @@
+{
+  "_updated": "2026-07-29",
+  "guardrails-ai/guardrails": 7224,
+  "NVIDIA/NeMo-Guardrails": 6829,
+  "protectai/llm-guard": 3200,
+  "whylabs/langkit": 994,
+  "protectai/rebuff": 1517,
+  "deadbits/vigil-llm": 492,
+  "meta-llama/PurpleLlama": 4318,
+  "royalpinto007/injection-arena": 0,
+  "guidance-ai/guidance": 21696,
+  "dottxt-ai/outlines": 15434,
+  "jxnl/instructor": 13650,
+  "1rgs/jsonformer": 4933,
+  "microsoft/presidio": 10252,
+  "unitaryai/detoxify": 1280,
+  "NVIDIA/garak": 8618,
+  "confident-ai/deepteam": 2309,
+  "Giskard-AI/giskard": 5724,
+  "protectai/modelscan": 752
+}
