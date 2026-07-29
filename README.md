@@ -4,6 +4,8 @@
 
 An LLM will confidently do the wrong thing: follow an instruction hidden in a document, paste a customer's PII into a summary, return JSON your parser chokes on, or comply with "ignore your instructions." **Guardrails** are the checks you put *around* the model — on the input, the output, or the generation itself — so a bad case is caught instead of shipped. This list collects the open-source tools that do it.
 
+**🔎 Prefer to browse and filter? → [llm-guardrails.agentpostmortem.com](https://llm-guardrails.agentpostmortem.com)**
+
 ---
 
 ## Start Here: The Four Places a Guardrail Goes

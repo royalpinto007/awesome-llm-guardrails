@@ -54,4 +54,13 @@ const readmePath = join(ROOT, "README.md");
 let readme = readFileSync(readmePath, "utf8");
 readme = readme.replace(/<!-- LIST:START -->[\s\S]*<!-- LIST:END -->/, `<!-- LIST:START -->\n${generated}\n<!-- LIST:END -->`);
 writeFileSync(readmePath, readme);
-console.log(`generated README for ${tools.length} tools`);
+
+// ---- write filterable site ----
+import { mkdirSync } from "node:fs";
+const siteData = tools.map((t) => ({ ...t, stars: starOf(t) }));
+const siteDir = join(ROOT, "site");
+if (!existsSync(siteDir)) mkdirSync(siteDir, { recursive: true });
+let siteHtml = readFileSync(join(ROOT, "templates/site.html"), "utf8");
+siteHtml = siteHtml.replace("/*DATA*/", JSON.stringify(siteData)).replace("/*UPDATED*/", stars._updated || "");
+writeFileSync(join(siteDir, "index.html"), siteHtml);
+console.log(`generated README + site for ${tools.length} tools`);
