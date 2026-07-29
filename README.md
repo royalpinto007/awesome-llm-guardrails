@@ -67,6 +67,10 @@ Most guardrail confusion disappears once you know *where* in the pipeline each t
 
 ---
 
+## Related
+
+- [awesome-agent-evals](https://github.com/royalpinto007/awesome-agent-evals) — the evaluation counterpart: know whether your agent actually works, and whether it still works tomorrow.
+
 ## Contributing
 
 Contributions are very welcome. Edit [`data/tools.json`](data/tools.json) and open a PR (the README is generated from it — don't edit the list by hand). Please:
