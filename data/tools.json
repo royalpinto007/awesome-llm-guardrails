@@ -126,9 +126,9 @@
     "desc": "Scan model files for serialization attacks \u2014 the supply-chain guardrail for weights you download."
   },
   {
-    "name": "skill-audit",
-    "repo": "royalpinto007/skill-audit",
-    "url": "https://github.com/royalpinto007/skill-audit",
+    "name": "Skill-audit",
+    "repo": "royalpinto007/Skill-audit",
+    "url": "https://github.com/royalpinto007/Skill-audit",
     "category": "supply",
     "desc": "Security scanner for agent skills: flags prompt-injection, dangerous shell, secret access, and exfiltration before you install a skill."
   }
