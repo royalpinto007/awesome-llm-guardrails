@@ -22,7 +22,7 @@ Most guardrail confusion disappears once you know *where* in the pipeline each t
 ---
 
 <!-- LIST:START -->
-**18 open-source guardrail tools**, auto-refreshed weekly. Star counts updated **2026-07-29**.
+**19 open-source guardrail tools**, auto-refreshed weekly. Star counts updated **2026-07-30**.
 
 ### Guardrail Frameworks
 
@@ -61,7 +61,8 @@ Most guardrail confusion disappears once you know *where* in the pipeline each t
 
 ### Model & Supply-Chain Security
 
-- [ModelScan](https://github.com/protectai/modelscan) `★ 752` — Scan model files for serialization attacks — the supply-chain guardrail for weights you download.
+- [ModelScan](https://github.com/protectai/modelscan) `★ 754` — Scan model files for serialization attacks — the supply-chain guardrail for weights you download.
+- [skill-audit](https://github.com/royalpinto007/skill-audit) `★ 0` — Security scanner for agent skills: flags prompt-injection, dangerous shell, secret access, and exfiltration before you install a skill.
 
 <!-- LIST:END -->
 
