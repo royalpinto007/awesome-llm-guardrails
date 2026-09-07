@@ -48,6 +48,7 @@ Most guardrail confusion disappears once you know *where* in the pipeline each t
 ### PII & Privacy
 
 - [Presidio](https://github.com/microsoft/presidio) `★ 10.7k` — Detect, redact, mask, and anonymize PII in text and images — the standard for privacy guardrails (by Microsoft).
+- * [PII Guardrail Studio](https://github.com/piiguardrails/piiguardrails) - 100% local, air-gapped reverse privacy proxy for real-time reversible PII scrubbing with SQLCipher AES-256 vault.
 
 ### Toxicity & Content Safety
 
