@@ -22,11 +22,11 @@ Most guardrail confusion disappears once you know *where* in the pipeline each t
 ---
 
 <!-- LIST:START -->
-**19 open-source guardrail tools**, auto-refreshed weekly. Star counts updated **2026-09-21**.
+**19 open-source guardrail tools**, auto-refreshed weekly. Star counts updated **2026-09-28**.
 
 ### Guardrail Frameworks
 
-- [Guardrails AI](https://github.com/guardrails-ai/guardrails) `★ 7.4k` — Add input/output validators and structured guarantees to LLMs, with a hub of reusable validators.
+- [Guardrails AI](https://github.com/guardrails-ai/guardrails) `★ 7.5k` — Add input/output validators and structured guarantees to LLMs, with a hub of reusable validators.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) `★ 7.2k` — Programmable rails for LLM conversational systems, defined in a dedicated modeling language (by NVIDIA).
 - [LLM Guard](https://github.com/protectai/llm-guard) `★ 3.2k` — A security toolkit for LLM interactions: scanners for PII, toxicity, prompt injection, and more, on both input and output.
 - [LangKit](https://github.com/whylabs/langkit) `★ 997` — An open-source toolkit for monitoring LLMs — extract safety and quality signals from prompts and responses (by WhyLabs).
@@ -35,19 +35,19 @@ Most guardrail confusion disappears once you know *where* in the pipeline each t
 
 - [Llama Guard / PurpleLlama](https://github.com/meta-llama/PurpleLlama) `★ 4.4k` — Meta's suite for LLM safety: Llama Guard (input/output classification), Prompt Guard (injection detection), and CyberSecEval benchmarks.
 - [Rebuff](https://github.com/protectai/rebuff) `★ 1.5k` — A self-hardening prompt-injection detector that layers heuristics, an LLM check, a vector DB of known attacks, and canary tokens.
-- [Vigil](https://github.com/deadbits/vigil-llm) `★ 496` — Detect prompt injections, jailbreaks, and other risky inputs before they reach your model.
+- [Vigil](https://github.com/deadbits/vigil-llm) `★ 495` — Detect prompt injections, jailbreaks, and other risky inputs before they reach your model.
 - [Injection Arena](https://github.com/royalpinto007/injection-arena) `★ 0` — A self-hostable capture-the-flag game for learning prompt-injection defenses against a stack of guardrails.
 
 ### Structured & Constrained Output
 
 - [Guidance](https://github.com/guidance-ai/guidance) `★ 21.8k` — A guidance language for constraining generation — interleave control flow, regex, and grammars so the model can only produce valid output.
 - [Outlines](https://github.com/dottxt-ai/outlines) `★ 15.9k` — Structured generation: force outputs to match a JSON schema, regex, or grammar, guaranteeing shape.
-- [Instructor](https://github.com/jxnl/instructor) `★ 13.9k` — Structured outputs for LLMs via Pydantic — validate and retry until the response matches your model.
+- [Instructor](https://github.com/jxnl/instructor) `★ 14k` — Structured outputs for LLMs via Pydantic — validate and retry until the response matches your model.
 - [Jsonformer](https://github.com/1rgs/jsonformer) `★ 4.9k` — A bulletproof way to generate structured JSON: only the content tokens are sampled, the structure is fixed.
 
 ### PII & Privacy
 
-- [Presidio](https://github.com/microsoft/presidio) `★ 11k` — Detect, redact, mask, and anonymize PII in text and images — the standard for privacy guardrails (by Microsoft).
+- [Presidio](https://github.com/microsoft/presidio) `★ 11.1k` — Detect, redact, mask, and anonymize PII in text and images — the standard for privacy guardrails (by Microsoft).
 
 ### Toxicity & Content Safety
 
@@ -55,9 +55,9 @@ Most guardrail confusion disappears once you know *where* in the pipeline each t
 
 ### Red-Teaming & Vulnerability Scanning
 
-- [garak](https://github.com/NVIDIA/garak) `★ 9.3k` — The LLM vulnerability scanner — probe a model for jailbreaks, injections, data leakage, and toxicity before you ship (by NVIDIA).
+- [garak](https://github.com/NVIDIA/garak) `★ 9.4k` — The LLM vulnerability scanner — probe a model for jailbreaks, injections, data leakage, and toxicity before you ship (by NVIDIA).
 - [Giskard](https://github.com/Giskard-AI/giskard) `★ 5.8k` — Open-source scanning for LLM agents that surfaces safety and quality vulnerabilities automatically.
-- [DeepTeam](https://github.com/confident-ai/deepteam) `★ 2.9k` — A framework to red-team LLMs and AI agents against 40+ vulnerabilities and attack methods.
+- [DeepTeam](https://github.com/confident-ai/deepteam) `★ 3k` — A framework to red-team LLMs and AI agents against 40+ vulnerabilities and attack methods.
 
 ### Model & Supply-Chain Security
 
