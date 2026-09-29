@@ -22,7 +22,7 @@ Most guardrail confusion disappears once you know *where* in the pipeline each t
 ---
 
 <!-- LIST:START -->
-**19 open-source guardrail tools**, auto-refreshed weekly. Star counts updated **2026-09-28**.
+**20 open-source guardrail tools**, auto-refreshed weekly. Star counts updated **2026-09-28**.
 
 ### Guardrail Frameworks
 
@@ -58,6 +58,7 @@ Most guardrail confusion disappears once you know *where* in the pipeline each t
 - [garak](https://github.com/NVIDIA/garak) `★ 9.4k` — The LLM vulnerability scanner — probe a model for jailbreaks, injections, data leakage, and toxicity before you ship (by NVIDIA).
 - [Giskard](https://github.com/Giskard-AI/giskard) `★ 5.8k` — Open-source scanning for LLM agents that surfaces safety and quality vulnerabilities automatically.
 - [DeepTeam](https://github.com/confident-ai/deepteam) `★ 3k` — A framework to red-team LLMs and AI agents against 40+ vulnerabilities and attack methods.
+- [API Relay Audit](https://github.com/toby-bridges/api-relay-audit) — Local CLI that probes third-party LLM relays and proxies for prompt-injection signals, package-command text changes, error leakage, and Anthropic SSE anomalies, producing Markdown reports.
 
 ### Model & Supply-Chain Security
 

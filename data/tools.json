@@ -119,6 +119,13 @@
     "desc": "Open-source scanning for LLM agents that surfaces safety and quality vulnerabilities automatically."
   },
   {
+    "name": "API Relay Audit",
+    "repo": "toby-bridges/api-relay-audit",
+    "url": "https://github.com/toby-bridges/api-relay-audit",
+    "category": "redteam",
+    "desc": "Local CLI that probes third-party LLM relays and proxies for prompt-injection signals, package-command text changes, error leakage, and Anthropic SSE anomalies, producing Markdown reports."
+  },
+  {
     "name": "ModelScan",
     "repo": "protectai/modelscan",
     "url": "https://github.com/protectai/modelscan",
